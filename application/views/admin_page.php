@@ -26,6 +26,9 @@ echo "<br/>";
 echo "Your Email is " . $email;
 echo "<br/>";
 ?>
+
+<a href="<?php echo base_url();?>index.php/management/clientes">Clientes</a>
+<a href="<?php echo base_url();?>index.php/management/vehiculos">Vehiculos</a>
 <b id="logout"><a href="logout">Logout</a></b>
 </div>
 <br/>
